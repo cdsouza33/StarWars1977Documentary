@@ -56,6 +56,8 @@ body{
   font-size: 30px;
   height: 110px;
   color: bisque;
+
+  padding-left: 150px;
 }
 
 .slide1{
@@ -215,7 +217,7 @@ body{
 }
 
 @keyframes heading4_animation{
-  85% { opacity: 0;
+  80% { opacity: 0;
         scale: 0.5;
         left: -800px;}
   92% { left: 0px; 
@@ -245,7 +247,7 @@ body{
 }
 
 @keyframes text4_animation{
-  85% { opacity: 0;
+  80% { opacity: 0;
         scale: 0.5;
         left: 800px;}
   92% { left: 0px; 
@@ -254,6 +256,35 @@ body{
 
   100% { opacity: 1;
         scale: 1;}
+}
+
+.slide1Image{
+  scale: 0.25;
+  position: absolute;
+  top: 1150px;
+  right: 550px;
+
+  animation: slide1Image_animation;
+  animation-timeline: scroll();
+
+}
+
+@keyframes slide1Image_animation{
+
+  0% {
+    transform: rotateY(0deg) translateZ(0px);
+  }
+  23% {
+    transform: rotateY(180deg) translateZ(100px);
+  }
+
+  26% {
+    transform: rotateY(180deg) translateZ(100px);
+  }
+
+  80% {
+    transform: skewX(0);
+  }
 }
 
 
