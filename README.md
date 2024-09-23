@@ -1,5 +1,5 @@
-## Star Wars 1977 Documentary Presentation
+## Presentation on *The Making of Star Wars*
 #### ENGL 2411, Popular Literature
 ##### By Clyde, Daniel, Aadi and Giancarlo
 
-This is an experimental presentation for our Popular Literature class. It covers \it{The Making of Star Wars}, a 1977 documentary exploring the making of the original Star Wars film.
+This is an experimental presentation for our popular literature course. The presentation discusses *The Making of Star Wars*, a 1977 documentary exploring the making of the original Star Wars film.
