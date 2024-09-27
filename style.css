@@ -52,8 +52,8 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 700px;
   font-size: 30px;
+  width: 1000px;
   height: 110px;
   color: bisque;
 
@@ -88,6 +88,7 @@ body{
   flex-direction: row;
   align-items: center;
   width: 1000px;
+  padding-left: 500px;
   font-size: 30px;
   height: 175px;
   color: bisque;
@@ -169,6 +170,7 @@ body{
   font-size: 30px;
   height: 110px;
   color: bisque;
+  padding-left: 300px;
 
   opacity: 0;
   scale: 3.5; 
@@ -238,6 +240,7 @@ body{
   height: 130px;
   color: bisque;
   position: relative;
+  padding-left: 400px;
 
   opacity: 0;
   scale: 0; 
@@ -261,31 +264,31 @@ body{
 .slide1Image{
   scale: 0.25;
   position: absolute;
-  top: 1150px;
-  right: 550px;
+  top: 2650px;
+  right: 650px;
 
-  animation: slide1Image_animation;
+}
+
+.slide3Image{
+  scale: 0.5;
+  position: absolute;
+  top: 4050px;
+  right: 1250px;
+  
+  animation: slide2Image_animation;
   animation-timeline: scroll();
 
 }
 
-@keyframes slide1Image_animation{
+.slide4Image{
+  position: absolute;
+  top: 5050px;
+  right: 750px;
+  scale: 0.25;
 
-  0% {
-    transform: rotateY(0deg) translateZ(0px);
-  }
-  23% {
-    transform: rotateY(180deg) translateZ(100px);
-  }
+  animation: slide2Image_animation;
+  animation-timeline: scroll();
 
-  26% {
-    transform: rotateY(180deg) translateZ(100px);
-  }
-
-  80% {
-    transform: skewX(0);
-  }
 }
-
 
 
